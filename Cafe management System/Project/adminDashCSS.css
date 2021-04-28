@@ -1,0 +1,71 @@
+
+*{
+    margin:0;
+    padding: 0;
+}
+
+/*-----------------Nav----------------------*/
+#nav{
+    height: 80px;
+    width: 100%;
+    background-color: black; 
+    position: relative;
+}
+.navbar{
+ 
+    width: 25%;
+    height: 40px;
+    position: absolute;
+    right: 0;
+    bottom: 0; 
+    
+}
+.navbar a{
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'Dancing Script', cursive;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 0 15px;
+    color: white;
+    
+}
+
+/**--------------------ADMIN------------**/
+#admin{
+    height: 90vh;
+    width: 100%;
+    background-color:rgba(255, 248, 220, 0.87);
+}
+.admin-container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+
+}
+.col-1{
+    width: 30%;
+    border-right: 2px solid black;
+    height: 100%;
+    margin: auto;
+}
+.col-2{
+    width: 70%;
+    height: 100%;
+}
+.col-1 h1{
+    background-color: white;
+    border-bottom: 2px solid black;
+
+    
+}
+.item{
+    display: block;
+    padding: 15px;
+    font-size: 25px;
+    color: cornsilk;
+    font-weight: bold;
+    text-decoration: none;
+
+}
+    
